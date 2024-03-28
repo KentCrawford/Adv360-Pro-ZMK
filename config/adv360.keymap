@@ -80,11 +80,11 @@
 
         layer_Layer__4 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans          &trans            &trans             &trans  &trans  &kp HOME
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans          &trans            &trans             &trans  &trans   &kp END
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans          &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans          &trans      &kp UP_ARROW             &trans  &trans    &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans    &trans
+    &trans  &trans  &trans  &trans        &trans  &trans            &trans                                                  &trans    &trans          &trans          &trans            &trans             &trans  &kp HOME
+    &trans  &trans  &trans  &trans        &trans  &trans            &trans                                                  &trans    &trans          &trans          &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp END
+    &trans  &trans  &trans  &trans        &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW          &kp UP         &kp RIGHT             &trans    &trans
+    &trans  &trans  &trans  &trans        &trans  &trans                            &trans                  &trans                    &trans          &trans    &kp UP_ARROW            &trans             &trans    &trans
+ &kp LCTRL  &trans  &trans  &trans  &kp LEFT_ALT                    &trans  &trans  &trans                  &trans  &trans  &trans            &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW             &trans    &trans
             >;
         };
 
